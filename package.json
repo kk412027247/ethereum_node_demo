@@ -1,0 +1,10 @@
+{
+  "name": "ethereum_node_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^4.0.17",
+    "solc": "^0.5.1"
+  }
+}
