@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "ethers": "^4.0.17",
+    "openzeppelin-solidity": "^2.0.0",
     "solc": "^0.5.1"
   }
 }

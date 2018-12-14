@@ -125,4 +125,4 @@ const runContract2 = async ()=> {
   console.log(balance)
 } ;
 
-runContract2()
+runContract2();
