@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e93d0f8-d085-4485-9464-d3e4bb5f0a37" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ERC20.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/tmd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/tmd.xml" afterDir="false" />
+    <list default="true" id="7e93d0f8-d085-4485-9464-d3e4bb5f0a37" name="Default Changelist" comment="deploy to the network">
+      <change afterPath="$PROJECT_DIR$/demo4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixBug/smtchecker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erc20/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/erc20/build/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/erc20/build/contracts/MyToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/erc20/build/contracts/MyToken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo1.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,38 +22,47 @@
     <session id="-747019898">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="12" />
-          <entry key="json" value="5" />
-          <entry key="sol" value="5" />
+          <entry key="abi" value="3" />
+          <entry key="bin" value="2" />
+          <entry key="js" value="15" />
+          <entry key="json" value="6" />
+          <entry key="md" value="1" />
+          <entry key="sol" value="9" />
+          <entry key="solcjs" value="1" />
           <entry key="ts" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="12" />
-          <entry key="Solidity file" value="5" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="16" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Solidity file" value="9" />
           <entry key="TypeScript" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2491" />
+          <entry key="js" value="2738" />
+          <entry key="md" value="9" />
+          <entry key="sol" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2491" />
+          <entry key="JavaScript" value="2738" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Solidity file" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -64,34 +73,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/demo1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ERC20.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contracts/SimpleToken.sol">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="20" column="104" lean-forward="true" selection-start-line="20" selection-start-column="104" selection-end-line="20" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -119,16 +111,19 @@
       <list>
         <option value="$PROJECT_DIR$/contract/SimpleStorage.sol" />
         <option value="$PROJECT_DIR$/compile.js" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/1.js" />
-        <option value="$PROJECT_DIR$/demo2.js" />
-        <option value="$PROJECT_DIR$/demo1.js" />
         <option value="$PROJECT_DIR$/erc20/contracts/MyToken.sol" />
         <option value="$PROJECT_DIR$/erc20/migrations/2_deploy_token.js" />
         <option value="$PROJECT_DIR$/erc20/truffle.js" />
         <option value="$PROJECT_DIR$/2.js" />
         <option value="$PROJECT_DIR$/createToken.js" />
         <option value="$PROJECT_DIR$/ERC20.js" />
+        <option value="$PROJECT_DIR$/demo1.js" />
+        <option value="$PROJECT_DIR$/demo4.js" />
+        <option value="$PROJECT_DIR$/demo2.js" />
+        <option value="$PROJECT_DIR$/fixBug/smtchecker.js" />
+        <option value="$PROJECT_DIR$/contracts/SimpleToken.sol" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -159,9 +154,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
+    <option name="x" value="190" />
     <option name="y" value="22" />
-    <option name="width" value="1667" />
+    <option name="width" value="1490" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -199,25 +194,6 @@
             <path>
               <item name="ethereum_node_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ethereum_node_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="erc20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethereum_node_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethereum_node_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="erc20" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethereum_node_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethereum_node_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="erc20" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="contracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ethereum_node_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ethereum_node_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="erc20" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -276,17 +252,19 @@
       <workItem from="1544542696122" duration="591000" />
       <workItem from="1544797568996" duration="5000" />
       <workItem from="1544807567070" duration="1122000" />
+      <workItem from="1544938703145" duration="956000" />
+      <workItem from="1544940267763" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21695000" />
+    <option name="totallyTimeSpent" value="24614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="22" width="1667" height="1028" extended-state="0" />
+    <frame x="190" y="22" width="1490" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2015597" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30604026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,7 +278,7 @@
       <window_info anchor="bottom" id="Quokka" order="8" weight="0.27335984" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.41252485" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33996025" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -375,43 +353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage_sol_SimpleStorage.bin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/compile.js" />
-    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage_sol_SimpleStorage.abi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/IERC20.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="91" lean-forward="true" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erc20/migrations/2_deploy_token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -433,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/SimpleToken.sol">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/erc20/build/contracts/ERC20.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -447,13 +382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -468,9 +396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#67#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -499,9 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -512,24 +434,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo3.js">
+    <entry file="file://$PROJECT_DIR$/ERC20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage_sol_SimpleStorage.abi">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="5" />
+          <caret column="70" lean-forward="true" selection-start-column="70" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage_sol_SimpleStorage.bin">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="74" lean-forward="true" selection-start-column="74" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/solc/solcjs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/SimpleStorage.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="26" column="138" lean-forward="true" selection-start-line="26" selection-start-column="138" selection-end-line="26" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="23" />
+        <state relative-caret-position="575">
+          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ERC20.js">
+    <entry file="file://$PROJECT_DIR$/fixBug/smtchecker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
+        <state relative-caret-position="1343">
+          <caret line="64" column="2" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/IERC20.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="91" lean-forward="true" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/SimpleToken.sol">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="20" column="104" lean-forward="true" selection-start-line="20" selection-start-column="104" selection-end-line="20" selection-end-column="104" />
         </state>
       </provider>
     </entry>
