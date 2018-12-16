@@ -4,7 +4,7 @@ const util = require('util');
 const readFile = util.promisify(fs.readFile);
 
 const provider = ethers.getDefaultProvider('rinkeby');
-const contractAddress = '0xa85a627c7ea7bF5c1F92B922362A31fE57A4841e';
+const contractAddress = '0x5Dbcdb3d61Bf83d5Fb6C926F23717A0138f536d9';
 
 const listening = async ()=> {
   const abi = await readFile('./contracts/SimpleStorage_sol_SimpleStorage.abi',{encoding: 'utf8'});
